@@ -1,0 +1,78 @@
+/*Обнуление_start*/
+* {	padding: 0; margin: 0; border: 0;}*,
+*:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}:focus, :active {outline: none;}a:focus,a:active {outline: none;}
+nav,footer, header, aside {display: block;}
+input,button,textarea {font-family: inherit;}
+input: :-ms-clear {display: none;}
+button {cursor: pointer;}
+button: :-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+h1, h2, h3,h4,h5, h6 {font-size: inherit;font-weight: inherit;}
+html,body {-ms-text-size-adjust: 100%;-moz-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;width: 100%;line-height: 1;font-size: 18px;color: #;font-family: ;text-align: center;}
+
+.vopros {
+	margin: 100px 0px 50px 0px;
+	text-align: center;
+	font-size: 20px;
+}
+.da{
+	display: inline-block;
+	/* margin: 0px 80px 0px 800px; */
+	font-size: 25px;
+	margin: 0 30px  0 auto ;
+	
+	
+}
+.net{
+	display: inline-block;
+	 position: absolute;
+	/* left: 100px; */
+	font-size: 25px; 
+	margin: 0 auto 0 30px;
+}
+
+.net2{
+position:  relative;
+left: 100px;
+top: 200px;
+font-size: 25px; 
+display: none;
+}
+
+.net3{
+	position:  relative;
+	left: 200px;
+	top: 100px;
+	font-size: 25px; 
+	display: none;
+	}
+/* .net__animation{	
+	position: relative;
+left: -100px;
+top: -200px;
+}  */
+/*--------анимация после нажатия да--------------------*/
+.da__da{
+	text-align: center;
+	margin: 40px 0px 0px 0px;
+	font-size: 40px;
+	color: red;
+	display: none;
+}
+.da__da2{
+	text-align: center;
+	margin: 40px 0px 0px 0px;
+	font-size: 50px;
+	color: red;
+	display: none;
+}
+.da__da3{
+	text-align: center;
+	margin: 40px 0px 0px 0px;
+	font-size: 60px;
+	color: red;
+	display: none;
+}
